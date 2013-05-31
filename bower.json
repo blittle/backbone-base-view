@@ -1,0 +1,10 @@
+{
+  "name": "backbone-base-view",
+  "version": "1.0.0",
+  "main": "bb-baseview.min.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components"
+  ]
+}
