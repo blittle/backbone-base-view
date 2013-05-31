@@ -1,5 +1,5 @@
 /**
-  *	Backbone BaseView  
+  *	Backbone BaseView v1.0.2
   * Copyright Bret Little 2013
   * 
   * https://github.com/blittle/backbone-base-view
