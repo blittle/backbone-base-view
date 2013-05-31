@@ -11,13 +11,17 @@
 	if (typeof define === 'function' && define.amd) {
 		// AMD. Register as an anonymous module.
 		define(['backbone', 'underscore'], function(Backbone, _) {
-			return factory(Backbone, _);
+			var BaseView = factory(Backbone, _);
+			Backbone.BaseView = BaseView;
+			return BaseView;
 		}, function() {
-			return factory(root.Backbone, root._);
+			var BaseView = factory(root.Backbone, root._)
+			root.Backbone.BaseView = BaseView;
+			return BaseView;
 		});
 	} else {
 		// Browser globals
-		root.amdWeb = factory(root.Backbone, root._);
+		root.Backbone.BaseView = factory(root.Backbone, root._);
 	}
 }(this, function (Backbone, _) {
 
