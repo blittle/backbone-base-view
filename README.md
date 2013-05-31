@@ -6,7 +6,7 @@ A base Backbone view which others can extend to gain some more friendly function
 #Installation
 Install Backbone BaseView most easily through BowerJS.
 ```
-bower install bb-baseview
+bower install backbone-baseview
 ```
 Backbone BaseView is by default an AMD module. If your project does not use and AMD loader (ie RequireJS) BaseView
 will also attach itself to the Backbone namespace, available at `Backbone.BaseView`. Install the package by either
