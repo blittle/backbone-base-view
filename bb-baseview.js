@@ -4,7 +4,7 @@
   * 
   * https://github.com/blittle/backbone-base-view
   * 
-  * License BSD
+  * License MIT
   */
 
 (function (root, factory) {
